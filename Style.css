@@ -1,0 +1,60 @@
+@font-face {
+	font-family: "Blackadder ITC";
+	src: url("itcblkad.wott");
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color:#ff0000;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*
+h1{
+    background-color:#00ffff; 
+    color:#a52a2a
+}
+*/
+
+body{
+    background-color:#ffffff;
+}
+
+
+.header{
+    background-color: #7fff00;
+    display:flex;
+}
+
+
+
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Blackadder ITC";
+    background-color:rgb(223, 202, 202);
+    margin: 10px auto;
+
+}
+
+.content{
+    display:flex;
+    flex-wrap: wrap;
+
+    font-family: "Blackadder ITC";
+
+}
+
+
+
